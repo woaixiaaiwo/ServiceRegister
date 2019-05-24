@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lock" />
         <module name="orderService" />
         <module name="productService" />
+        <module name="productService (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lock" target="1.8" />
       <module name="orderService" target="1.8" />
       <module name="productService" target="1.8" />
+      <module name="productService (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
